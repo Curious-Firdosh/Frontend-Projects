@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'gilroy';
+}
+
+html,body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rect{
+    height: 200px;
+    width: 300px;
+    border: 1px solid black;
+    /* background-color: red; */
+    cursor: pointer;
+
+}

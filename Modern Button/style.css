@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Box{
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 2;
+    height: 48px;
+    border-radius: 4px ;
+    width: 210px;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: 0 6px 15px 0 rgba(16 39 112 , 0.15);
+    transition: all 250ms linear;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
